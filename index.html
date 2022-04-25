@@ -12,12 +12,23 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="shortcut icon" href="/assets/my_logos//favicon_grey.png" type="image/x-icon">
+    <style>
+        body::before {
+            content: '';
+            display: block;
+            height: 64px;
+        }
+        
+    </style>
   </head>
 
-  <body>
-      <div class="navbar navbar-expand-md bg-dark navbar-dark text-white fixed-top">
+  <body class="bg-light">
+      <div class=" navbar navbar-expand-md bg-light navbar-light text-primary fixed-top">
           <div class="container">
-              <a href="#" class="navbar-brand">Radwan</a>
+              <a href="#" class="navbar-brand">
+                  <img class="image-fluid  " id="my-logo" src="/assets/my_logos/logo_transparent.png" alt="brand" width="50" height="44">
+              </a>
 
               <button 
               class="navbar-toggler" 
@@ -51,7 +62,7 @@
           <div class="container">
               <div class="d-sm-flex align-items-center justify-content-center ">
                   <div class=" py-3 ">
-                      <h1 class="display-6">Hi there I'm <span class="text-primary">Radwan</span></h1>
+                      <h1 class="display-6">Hi there I'm <span class=" font-monospace ">Radwan</span></h1>
                       <h3 class="text-info">Computer Eng. Student</h3>
                     <p class="py-1 lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                          Animi nostrum hic, laboriosam illo reprehenderit et
